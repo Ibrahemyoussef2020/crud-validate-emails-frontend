@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* genral classes */
+.error-color{
+  color:red
+}
+.hasAnoneChildBorder * {
+  border: none !important;
+  outline: none !important;
+}
+.mg-5{
+  margin: 5px !important;
+}
+
+/* button */
+
+.CardGenetrater button,
+.CardValidator button
+{
+  width: 90%;
+  max-width: 250px;
+  margin: 0.5rem auto;
+  padding: 2px 5px;
+  
+  
+  border-radius: 7px;
+  color: #fff;
+  background-color: #1976d2;
+}
+.CardGenetrater button:hover,
+.CardValidator  button:hover
+{
+  background-color: #00f;
+}
